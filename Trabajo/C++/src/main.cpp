@@ -2,6 +2,9 @@
 // Este programa genera un código QR a partir de una URL proporcionada como argumento de línea de comandos.
 // Requiere la biblioteca QRencode y LodePNG para la generación y guardado de imágenes PNG respectivamente.
 //
+// Instalar QRencode:
+// sudo apt install qrencode
+//
 // Uso:
 // g++ -o qr_generator main.cpp lodepng.cpp -lqrencode
 // ./qr_generator "https://example.com"
